@@ -1,8 +1,12 @@
-# Key Paper Summary in DRL
+# Policy Gradient Methods for Reinforcement Learning with Function Approximation
 
-This repository contains the summary of around 100 key papers listed in on OpenAI Spinning Up. It aims to provide the readers with a quick preview of the major algorithms used in DRL and a starting point of getting into this field.
+**Authors**: Richard S. Sutton, David McAllester, Satinder Singh, Yishay Mansour
 
-### Table of Contents
+**Year**: 2000
+
+**Links:** [[paper](https://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)] [summary]
+
+**Contributions:** Established policy gradient theorem and showed convergence of policy gradient algorithm for arbitrary policy classes.
 
 
 
