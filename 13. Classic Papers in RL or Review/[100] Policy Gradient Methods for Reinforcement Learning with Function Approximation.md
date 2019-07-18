@@ -10,3 +10,42 @@
 
 
 
+#### Problems to solve: 
+
+- The previous value-function approach has worked well in many applications, but has several limitations. 
+  - oriented toward finding deterministic policies, whereas the optimal policy is often stochastic, selecting different actions with specific probabilities
+  - an arbitrarily small change in the estimated value of an action can cause it to be, or not be selected
+
+#### Approach:
+
+- Approximate a **stochastic policy** directly using an independent function approximate with its own parameters.
+- Policy parameters can be updated as: ![img](assets/latex_3c2224fe7ab4fdf4977b7b5892e03fce.png)
+  - small change to ![img](assets/latex_297adf15fdb34c4808482025275a736f.png) only causes small changes in the policy.
+
+#### Policy Gradient Theorem
+
+- Two formulations
+  - average reward formulation
+    - policies are ranked according to their long-term expected reward per step
+    - ![5](assets/5.png)
+    - the value of a state-action pair given a policy is defined as:
+    - ![6](assets/6.png)
+  - start-state formulation
+    - there is a designated start state s0
+    - ![7](assets/7.png)
+- **Theorem 1**
+
+![8](assets/8.png)
+
+#### Policy Gradient with Approximation
+
+- ![9](assets/9.png)
+- ![10](assets/10.png)
+- Given a policy parameterization, Theorem 2 can be used to derive an appropriate form for the value-function parameterization.
+
+#### Convergence of Policy Iteration with Function Approximation
+
+- ![11](assets/11.png)
+
+
+
