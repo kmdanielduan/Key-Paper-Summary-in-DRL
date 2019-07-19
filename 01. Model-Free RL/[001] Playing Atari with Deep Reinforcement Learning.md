@@ -4,7 +4,7 @@
 
 **Year**: 2013
 
-**Links:** [[arxiv](https://arxiv.org/abs/1312.5602v1)] [summary]
+**Links:** [[arxiv](https://arxiv.org/abs/1312.5602v1)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B001%5D%20Playing%20Atari%20with%20Deep%20Reinforcement%20Learning.md)]
 
 **Algorithm**: DQN
 
