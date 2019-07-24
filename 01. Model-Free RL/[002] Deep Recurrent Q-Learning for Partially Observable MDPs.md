@@ -4,7 +4,7 @@
 
 **Year**: 2017
 
-**Links:** 
+**Links:** [[arxiv](https://arxiv.org/abs/1507.06527)] [[summary]()]
 
 **Algorithm**: **Deep Recurrent Q-Learning**
 
@@ -32,7 +32,7 @@
 
 - Replacing DQN's first fully connected layer with a recurrent LSTM layer of the same size.
 - The last two timesteps are shown here. LSTM outputs become Q-Values after passing through a fully-connected layer. 
-  - ![17](/Users/apple/Desktop/OpenAI/Key_Paper_Summary_in_DRL/01. Model-Free RL/assets/17.png)
+  - ![17](assets/17.png)
 
 #### Stable Recurrent Updates
 
@@ -47,15 +47,14 @@
 
 - Flickering Atari Games
   - Introduce **Flickering Pong POMDP** by either revealing or obscuring the screen with a probability $p=0.5$.
-- ![18](/Users/apple/Desktop/OpenAI/Key_Paper_Summary_in_DRL/01. Model-Free RL/assets/18.png)
+- ![18](assets/18.png)
 
 #### MDP to POMDP Generalization
 
-![19](/Users/apple/Desktop/OpenAI/Key_Paper_Summary_in_DRL/01. Model-Free RL/assets/19.png)
+![19](assets/19.png)
 
 
 
 ### Reference:
 
 1. [用Deep Recurrent Q Network解决部分观测问题！](https://www.jianshu.com/p/305aee09ec31)
-
