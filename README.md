@@ -8,7 +8,7 @@ This repository contains the summaries of around 100 key papers on deep reinforc
 
 [001] Playing Atari with Deep Reinforcement Learning, Mnih et al, 2013. **Algorithm: DQN.** [[arxiv](https://arxiv.org/abs/1312.5602v1)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B001%5D%20Playing%20Atari%20with%20Deep%20Reinforcement%20Learning.md)]
 
-[002] Deep Recurrent Q-Learning for Partially Observable MDPs, Hausknecht and Stone, 2015. **Algorithm: Deep Recurrent Q-Learning.** [[arxiv](https://arxiv.org/abs/1507.06527)] [[summary]([https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B002%5D%20Deep%20Recurrent%20Q-Learning%20for%20Partially%20Observable%20MDPs.md](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01. Model-Free RL/[002] Deep Recurrent Q-Learning for Partially Observable MDPs.md))]
+[002] Deep Recurrent Q-Learning for Partially Observable MDPs, Hausknecht and Stone, 2015. **Algorithm: Deep Recurrent Q-Learning.** [[arxiv](https://arxiv.org/abs/1507.06527)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B002%5D%20Deep%20Recurrent%20Q-Learning%20for%20Partially%20Observable%20MDPs.md)]
 
 ## 13. Classic Papers in RL or Review
 
