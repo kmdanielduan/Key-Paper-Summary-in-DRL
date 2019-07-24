@@ -48,6 +48,10 @@
 
 ### Results and experiments:
 
+- **Model Architecture:** 
+  - Input: 84 × 84 × 4 image produced by $\phi$.
+  - Hidden layers: three convolutions followed by the final hidden layer is fully-connected and consists of 256 rectifier units. 
+  - Output layer is a fully-connected linear layer with a single output for each valid action. The number of valid actions varied between 4 and 18 on the games we considered.
 - **Techniques**:
   - **Reward clipping**: Since the scale of scores varies greatly from game to game, we
     fixed all positive rewards to be 1 and all negative rewards to be −1, leaving 0 rewards unchanged. Clipping the rewards in this manner limits the scale of the error derivatives and makes it easier to use the same learning rate across multiple games.
