@@ -2,9 +2,9 @@
 
 **Authors**: Matthew Hausknecht and Peter Stone
 
-**Year**: 2017
+**Year**: 2015
 
-**Links:** [[arxiv](https://arxiv.org/abs/1507.06527)] [[summary]()]
+**Links:** [[arxiv](https://arxiv.org/abs/1507.06527)] [[summary]([https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B002%5D%20Deep%20Recurrent%20Q-Learning%20for%20Partially%20Observable%20MDPs.md](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01. Model-Free RL/[002] Deep Recurrent Q-Learning for Partially Observable MDPs.md))]
 
 **Algorithm**: **Deep Recurrent Q-Learning**
 
