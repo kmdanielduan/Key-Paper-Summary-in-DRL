@@ -10,6 +10,8 @@ This repository contains the summaries of around 100 key papers on deep reinforc
 
 [002] Deep Recurrent Q-Learning for Partially Observable MDPs, Hausknecht and Stone, 2015. **Algorithm: Deep Recurrent Q-Learning.** [[arxiv](https://arxiv.org/abs/1507.06527)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B002%5D%20Deep%20Recurrent%20Q-Learning%20for%20Partially%20Observable%20MDPs.md)]
 
+[003] Dueling Network Architectures for Deep Reinforcement Learning, Wang et al, 2015. **Algorithm: Dueling DQN.** 
+
 ## 13. Classic Papers in RL or Review
 
 [100] Policy Gradient Methods for Reinforcement Learning with Function Approximation, Sutton et al, 2000. **Contributions:** Established policy gradient theorem and showed convergence of policy gradient algorithm for arbitrary policy classes. [[paper](https://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/13.%20Classic%20Papers%20in%20RL%20or%20Review/%5B100%5D%20Policy%20Gradient%20Methods%20for%20Reinforcement%20Learning%20with%20Function%20Approximation.md)]
