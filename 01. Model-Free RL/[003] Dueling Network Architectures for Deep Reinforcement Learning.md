@@ -4,7 +4,7 @@
 
 **Year**: 2015
 
-**Links:** [[arxiv]] [[summary]]
+**Links:** [[arxiv](https://arxiv.org/abs/1511.06581)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B003%5D%20Dueling%20Network%20Architectures%20for%20Deep%20Reinforcement%20Learning.md)]
 
 **Algorithm**: **Dueling DQN**
 
