@@ -4,7 +4,7 @@
 
 **Year**: 2015
 
-**Links:** [[arxiv](https://arxiv.org/abs/1509.06461)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B004%5DDeep%20Reinforcement%20Learning%20with%20Double%20Q-learning.md)]
+**Links:** [[arxiv](https://arxiv.org/abs/1509.06461)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B004%5D%20Deep%20Reinforcement%20Learning%20with%20Double%20Q-learning.md)]
 
 **Algorithm**: **Double DQN**
 
