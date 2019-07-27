@@ -12,7 +12,7 @@ This repository contains the summaries of around 100 key papers on deep reinforc
 
 [003] Dueling Network Architectures for Deep Reinforcement Learning, Wang et al, 2015. **Algorithm: Dueling DQN.** [[arxiv](https://arxiv.org/abs/1511.06581)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B003%5D%20Dueling%20Network%20Architectures%20for%20Deep%20Reinforcement%20Learning.md)]
 
-[004] Deep Reinforcement Learning with Double Q-learning, Hasselt et al 2015. **Algorithm: Double DQN.** [[arxiv](https://arxiv.org/abs/1509.06461)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01. Model-Free RL/[004]Deep Reinforcement Learning with Double Q-learning.md)]
+[004] Deep Reinforcement Learning with Double Q-learning, Hasselt et al 2015. **Algorithm: Double DQN.** [[arxiv](https://arxiv.org/abs/1509.06461)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B004%5DDeep%20Reinforcement%20Learning%20with%20Double%20Q-learning.md)]
 
 ## 13. Classic Papers in RL or Review
 
