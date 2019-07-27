@@ -4,7 +4,7 @@
 
 **Year**: 2016
 
-**Links:** [[arxiv]] [[summary]]
+**Links:** [[arxiv](https://arxiv.org/abs/1511.05952)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B005%5D%20Prioritized%20Experience%20Replay.md)]
 
 **Algorithm**: **Prioritized Experience Replay (PER)**
 

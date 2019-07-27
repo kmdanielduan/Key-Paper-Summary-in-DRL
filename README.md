@@ -14,7 +14,7 @@ This repository contains the summaries of around 100 key papers on deep reinforc
 
 [004] Deep Reinforcement Learning with Double Q-learning, Hasselt et al 2015. **Algorithm: Double DQN.** [[arxiv](https://arxiv.org/abs/1509.06461)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B004%5D%20Deep%20Reinforcement%20Learning%20with%20Double%20Q-learning.md)]
 
-[005] Prioritized Experience Replay, Schaul et al, 2015. **Algorithm: Prioritized Experience Replay (PER).** 
+[005] Prioritized Experience Replay, Schaul et al, 2015. **Algorithm: Prioritized Experience Replay (PER).** [[arxiv](https://arxiv.org/abs/1511.05952)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B005%5D%20Prioritized%20Experience%20Replay.md)]
 
 ## 13. Classic Papers in RL or Review
 
