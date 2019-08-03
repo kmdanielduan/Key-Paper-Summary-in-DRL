@@ -16,6 +16,8 @@ This repository contains the summaries of around 100 key papers on deep reinforc
 
 [005] Prioritized Experience Replay, Schaul et al, 2015. **Algorithm: Prioritized Experience Replay (PER).** [[arxiv](https://arxiv.org/abs/1511.05952)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B005%5D%20Prioritized%20Experience%20Replay.md)]
 
+[006] Rainbow-Combining Improvements in Deep Reinforcement Learning, Hessel et al, 2017. **Algorithm: Rainbow DQN.** [[arxiv](https://arxiv.org/abs/1710.02298)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B006%5D%20Rainbow-Combining%20Improvements%20in%20Deep%20Reinforcement%20Learning.md)]
+
 ## 13. Classic Papers in RL or Review
 
 [100] Policy Gradient Methods for Reinforcement Learning with Function Approximation, Sutton et al, 2000. **Contributions:** Established policy gradient theorem and showed convergence of policy gradient algorithm for arbitrary policy classes. [[paper](https://papers.nips.cc/paper/1713-policy-gradient-methods-for-reinforcement-learning-with-function-approximation.pdf)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/13.%20Classic%20Papers%20in%20RL%20or%20Review/%5B100%5D%20Policy%20Gradient%20Methods%20for%20Reinforcement%20Learning%20with%20Function%20Approximation.md)]
