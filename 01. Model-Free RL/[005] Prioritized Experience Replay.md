@@ -71,8 +71,7 @@
     $$
 
     - $\beta$ is used to adjust the extent of annealing the bias (diminishing the bias through time)
-    - For stability reasons, we always normalize weights by $1/ \max_i w_i$ so
-      that they only scale the update downwards. (**not sure what this means???**)
+    - For stability reasons, we always normalize weights by $1/ \max_i w_i$ so that they only scale the update downwards. (**not sure what this means???**)
 
 #### Algorithm
 

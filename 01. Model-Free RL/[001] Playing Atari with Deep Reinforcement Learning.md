@@ -4,24 +4,28 @@
 
 **Year**: 2013
 
-**Links:** [[arxiv](https://arxiv.org/abs/1312.5602v1)] [[summary](https://github.com/kmdanielduan/Key-Paper-Summary-in-DRL/blob/master/01.%20Model-Free%20RL/%5B001%5D%20Playing%20Atari%20with%20Deep%20Reinforcement%20Learning.md)]
-
 **Algorithm**: DQN
+
+**Links:** [[arxiv](https://arxiv.org/abs/1312.5602v1)] [[summary]]
 
 ### Highlights
 
-- **Neural network function approximator**
-- **Deep Q Networks**
+- **Neural network Q-function approximator**
 - **Experience replay mechanism**
+
+### Prerequisite
+
+- [Q-learning](https://towardsdatascience.com/simple-reinforcement-learning-q-learning-fcddc4b6fe56)
 
 ### Problems to solve: 
 
+- Learning to control agents from **high-dimensional sensory inputs** like vision and speech is hard.
 - RL algorithms have to learn from a scalar reward that is frequently **sparse, noisy and delayed**. 
-- Most deep learning algorithms assume the data distribution to be independent, while in reinforcement learning one typically encounters sequences of highly correlated states. In RL the data distribution changes as the algorithm learns new behaviors.
+- Deep Learning algorithms assume the data samples to be independent. But RL algorithms typically encounter sequences of **highly correlated** states. Also, the data distribution is **non-stationary** for RL, it changes as the agent learns new behaviors.
 
 ### Background and Intuitions:
 
-- **Neural network function approximator**: For atari games, the state space is large and the action space is small, it's infeasible to use Q-Learning to solve the games. We refer to neural network function approximator with weight $ \theta$ as a Q-network.
+- **Neural network function approximator**: For atari games, the state space is large and the action space is small, it's infeasible to use Q-Learning to solve the games. We refer to neural network function approximator with weight <img src="https://latex.codecogs.com/svg.latex?\dpi{300}&space;\large&space;\theta" title="\large \theta" /> as a Q-network. 
   - Use **CNN**, trained with a variant of Q-Learning, with SGD to update the weights.
 - **Sequence** $s_t=x_1, a_1,x_2, …, a_{t-1}, x_t$ as the state representation
 - **Loss function**: minimising a sequence of loss functions $L_i(θ_i)$ that changes at each
@@ -42,8 +46,7 @@
   - Preprocess the histories by a function $\phi$ to make sure fixed length representation of histories.
 - **Advantages of the algorithm**:
   1. Each step is potentially used for updates -> **data efficiency**
-  2. learning directly from consecutive samples is inefficient, due to the strong correlations
-     between the samples; **randomizing the samples** breaks these correlations and therefore reduces the variance of the updates.
+  2. learning directly from consecutive samples is inefficient, due to the strong correlations between the samples; **randomizing the samples** breaks these correlations and therefore reduces the variance of the updates.
   3. By using **experience replay** the behavior distribution is averaged over many of its previous states, smoothing out learning and avoiding oscillations or divergence in the parameters.
 
 ### Results and experiments:
